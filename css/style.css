@@ -1,0 +1,28 @@
+   	    .Progressbar {
+                width: 100%;
+                background-color: #ddd;
+                margin-bottom: 20px;
+            }
+
+            .colorbar {
+                width: 0%;
+                height: 30px;
+                background-color: #364de4;
+                text-align: center;
+            }
+            .clabel {
+                text-align: center;
+                line-height: 30px;
+                color: white;
+            }
+            select{               
+                height:30px;
+            }
+            
+            
+            @media only screen and (max-width: 500px)
+            {
+              select{               
+                margin-top:20px;
+            }
+            }
